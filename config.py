@@ -16,7 +16,7 @@ except:
 
     if (
         not getenv("SESSION_STRING")
-        or getenv("SESSION_STRING") == "xxxxxxxxxxxxxxxxxxxxxxx"
+        or getenv("SESSION_STRING") == "BQG7FU4AgmWdkVg42HT-rEsamEp-8OtRFosG-C0ikuPVolG1ygDInw9F7FI9O3YxbkwWNViM5kiw6Zy0bIwtOZtBVR9UzRIqYguhR_zIotABWNjqf6VldWKfrFhvtC9zlAWP5jr7hb386Unj0R0HfKQ5xY_Nt1rQCdgAQ8E-1eL6IrjiAMC-3gvQoWT0o-G-stBvZAUGGyXKzRgKD6-_QqMydVOdmZPspJ7h63WNs8yHDBOoz5-3zGLnhAGSnBMcJ4MV8wiqftuP3o1HwOFnIx7OkeRiU3mDOuhl72j5DI33dUo3gy_lnqPAoaFL8bWmqPtk7loWfF60jk5VXuE8R581E4ISUAAAAAHDxaOpAA"
     ):
         print("Error: SESSION_STRING must be set with a valid string")
         exit(1)
