@@ -63,7 +63,7 @@ async def start(_, message: Message):
     )
 
     markup = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("Update Channel", url="https://t.me/itsSmartDev")]]
+        [[InlineKeyboardButton("Update Channel", url="https://t.me/ST_Rename_Update")]]
     )
     await message.reply(welcome_text, reply_markup=markup, disable_web_page_preview=True)
 
@@ -82,12 +82,12 @@ async def help_command(_, message: Message):
         "➤ **Stats**\n"
         "   – Send `/stats` to view current status:\n\n"
         "**Example**:\n"
-        "  • `/dl https://t.me/itsSmartDev/547`\n"
-        "  • `https://t.me/itsSmartDev/547`"
+        "  • `/dl https://t.me/xxxxxxxxxx/547`\n"
+        "  • `https://t.me/xxxxxxxxxx/547`"
     )
     
     markup = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("Update Channel", url="https://t.me/itsSmartDev")]]
+        [[InlineKeyboardButton("Update Channel", url="https://t.me/ST_Rename_Update")]]
     )
     await message.reply(help_text, reply_markup=markup, disable_web_page_preview=True)
 
